@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(120deg, #ffe53bd8, #ff2525da);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.relogio {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 200px;
+  width: 350px;
+  background: transparent;
+  border-radius: 3px;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+.relogio div {
+  height: 180px;
+  width: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: rgba(5, 5, 5, .9);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+  border-radius: 3px;
+  letter-spacing: 3px;
+}
+
+.relogio span {
+  font-weight: bolder;
+  font-size: 100px;
+}
+
+.button div {
+  height: 50px;
+  width: 350px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(5, 5, 5, .9);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+  border-radius: 3px;
+}
+
+button#reset, #pause, #play{
+  font-size: 23px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: rgb(210, 210, 101);
+}
+
+.button .bnt {
+  height: 40px;
+  width: 80px;
+  padding: 5px 10px 5px 10px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
